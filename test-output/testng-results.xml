@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-19T09:37:39 IST" name="Default suite" finished-at="2022-07-19T09:38:11 IST" duration-ms="31249">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner1@5d534f5d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-19T09:37:39 IST" name="Default test" finished-at="2022-07-19T09:38:11 IST" duration-ms="31249">
+      <class name="testRunner.testRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.testRunner1@5d534f5d]" started-at="2022-07-19T09:37:39 IST" name="setUpClass" finished-at="2022-07-19T09:37:40 IST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fb5ad40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner1@5d534f5d]" started-at="2022-07-19T09:37:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-19T09:37:47 IST" duration-ms="6973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I have to verify the url."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feature to test the functionality of browser."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner1@5d534f5d]" started-at="2022-07-19T09:37:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-19T09:37:58 IST" duration-ms="11452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Chrcking the fucnctionality for valid data."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.testRunner1@5d534f5d]" started-at="2022-07-19T09:37:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-19T09:38:10 IST" duration-ms="11999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Chrcking the fucnctionality for valid data."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify login functionality."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.testRunner1@5d534f5d]" started-at="2022-07-19T09:38:10 IST" name="tearDownClass" finished-at="2022-07-19T09:38:11 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.testRunner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
